@@ -48,7 +48,28 @@
     let greeting = "My name is " + name;
     console.log(greeting);
 
+    // Start of 'JS Functions'
+    console.log('Using functions:');
 
+    // function to make square numbers
+    function makeSquare(theNumb) {
+      return Math.pow(theNumb, 2); // Bonus of using the Math.pow() function
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01); // Should return 9
+    let try02 = makeSquare(15); 
+    console.log(try02); // Should return 225
+    let try03 = makeSquare(0.5) ; 
+    console.log(try03); // Should return 0.25
+
+    // functions on my own
+    function makeName(firstName, middleName, lastName) {
+      return firstName + ' ' + middleName + ' ' + lastName;
+    }
+    console.log(makeName('Diego', 'Jose', 'Torrealba'));
+    console.log(makeName('Solána', 'Imani', 'Rowe'));
+    console.log(makeName('Robert', '"Beto"', 'O\'Rourke'));
   </script>
 </body>
 </html>
